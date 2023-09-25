@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* print_alphabet_10x - prints the alphabet 10 time
-*
-* Description: using nested for loops to go over the alphabet ten times
-*/
+  * print_alphabet_x10 - prints the  alphabet x10 times
+  *
+  * Return: void
+  */
 void print_alphabet_x10(void)
 {
 	char c;
