@@ -2,7 +2,7 @@
 /**
 * print_alphabet_10x - prints the alphabet 10 time
 *
-* Return: void
+* Description: using nested for loops to go over the alphabet ten times
 */
 void print_alphabet_x10(void)
 {
