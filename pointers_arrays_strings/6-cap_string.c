@@ -1,4 +1,4 @@
-#iinclude "main.h"
+#include "main.h"
 
 /**
  * cap_string - capitalize all words of a string
