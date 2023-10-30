@@ -1,22 +1,25 @@
-#ifndef CALC_H
-#define CALC_H
+#ifndef HEADER
+#define HEADER
 
 /**
-  * struct op - structure of function call
-  * @op: operator (+, -, *, /, %)
-  * @f: function to call
-  */
+ * struct op - an operator structure, pairing an operator with
+ * its respective function
+ *
+ * @op: the operator
+ * @f: the operation function
+*/
 typedef struct op
 {
 	char *op;
-	int (*f)(int a, int b);
+	int (*f)(int, int);
 } op_t;
 
-int (*get_op_func(char *s))(int, int);
-int op_add(int a, int b);
-int op_sub(int a, int b);
-int op_mul(int a, int b);
-int op_div(int a, int b);
-int op_mod(int a, int b);
+int (*get_op_func(char *))(int, int);
+
+int op_add(int, int);
+int op_sub(int, int);
+int op_mul(int, int);
+int op_div(int, int);
+int op_mod(int, int);
 
 #endif

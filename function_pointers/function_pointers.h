@@ -1,10 +1,11 @@
-#ifndef ASSIGN_0x0E
-#define ASSIGN_0x0E
+#include <stdlib.h>
+#ifndef HEADER
+#define HEADER
 
-#include <stddef.h>
-void print_name(char *name, void (*f)(char *));
-void array_iterator(int *array, size_t size, void (*action)(int));
-int int_index(int *array, int size, int (*cmp)(int));
-int _putchar(char c);
+void print_name(char *, void (*f)(char *));
+
+void array_iterator(int *, size_t, void (*action)(int));
+
+int int_index(int *, int, int (*cmp)(int));
 
 #endif

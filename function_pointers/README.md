@@ -1,2 +1,1 @@
- functions and pointers
-
+ function and pointers
