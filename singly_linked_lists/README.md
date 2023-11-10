@@ -8,3 +8,16 @@
 - `2-add_node.c`: <i>Adds a new node at the beginning of a list_t list.</i>
 - `3-add_node_end.c`: <i>Adds a new node at the end of a list_t list.</i>
 - `4-free_list.c`: <i>Frees a list_t list.</i></details>
+
+<h3>List of headers</h3>
+
+| Headers | |
+| ------------- | ------------- |
+| #include  |  "lists.h" |
+| #include  |  <stdio.h> |
+| #include  | <stdlib.h> |
+| #include  | <string.h> |
+| #include  | <stdarg.h> |
+| #include  | <unistd.h> |
+| #include  | <limits.h> |
+| #include  | <stddef.h> |
