@@ -13,9 +13,9 @@
 <details><summary>Headers</summary>
   
 - `lists.h`: <i>Header File Name</i>
-- `<stdlib.h>`: <i>declares various utility functions for type conversions, memory allocation, and algorithms</i>
-- `<stdio.h>`: <i>perform input and output operations</i>
-- `<string.h>`: <i>manipulating strings</i></details>
+- `<stdlib.h>`: <i>Declares various utility functions for type conversions, memory allocation, and algorithms</i>
+- `<stdio.h>`: <i>Perform input and output operations</i>
+- `<string.h>`: <i>Manipulating strings</i></details>
 
 <h3>lists.h</h3>
 
