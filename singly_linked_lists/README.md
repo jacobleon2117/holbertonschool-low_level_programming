@@ -13,9 +13,9 @@
 <details><summary>Headers</summary>
   
 - `lists.h`: <i>Header File Name</i>
-- `<stdlib.h>`: <i>Prints all the elements of a list_t list</i>
-- `<stdio.h>`: <i>Returns the number of elements in a linked list_t list.</i>
-- `<string.h>`: <i>Adds a new node at the beginning of a list_t list.</i></details>
+- `<stdlib.h>`: <i>declares various utility functions for type conversions, memory allocation, and algorithms</i>
+- `<stdio.h>`: <i>perform input and output operations</i>
+- `<string.h>`: <i>manipulating strings</i></details>
 
 <h3>lists.h</h3>
 
