@@ -11,19 +11,10 @@
 
 <h3>0-print_list.c</h3>
 
+<h3>1-list_len.c</h3>
 
+<h3>2-add_node.c</h3>
 
+<h3>3-add_node_end.c</h3>
 
-
-<h3>List of headers</h3>
-
-| Headers | |
-| ------------- | ------------- |
-| #include  |  "lists.h" |
-| #include  |  <stdio.h> |
-| #include  | <stdlib.h> |
-| #include  | <string.h> |
-| #include  | <stdarg.h> |
-| #include  | <unistd.h> |
-| #include  | <limits.h> |
-| #include  | <stddef.h> |
+<h3>4-free_list.c</h3>
