@@ -9,6 +9,12 @@
 - `3-add_node_end.c`: <i>Adds a new node at the end of a list_t list.</i>
 - `4-free_list.c`: <i>Frees a list_t list.</i></details>
 
+<h3>0-print_list.c</h3>
+
+
+
+
+
 <h3>List of headers</h3>
 
 | Headers | |
