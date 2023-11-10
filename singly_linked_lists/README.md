@@ -12,12 +12,10 @@
 
 <details><summary>Headers</summary>
   
-- `lists.h`: <i>Header File</i>
-- `0-print_list.c`: <i>Prints all the elements of a list_t list</i>
-- `1-list_len.c`: <i>Returns the number of elements in a linked list_t list.</i>
-- `2-add_node.c`: <i>Adds a new node at the beginning of a list_t list.</i>
-- `3-add_node_end.c`: <i>Adds a new node at the end of a list_t list.</i>
-- `4-free_list.c`: <i>Frees a list_t list.</i></details>
+- `lists.h`: <i>Header File Name</i>
+- `<stdlib.h>`: <i>Prints all the elements of a list_t list</i>
+- `<stdio.h>`: <i>Returns the number of elements in a linked list_t list.</i>
+- `<string.h>`: <i>Adds a new node at the beginning of a list_t list.</i>
 
 <h3>lists.h</h3>
 
