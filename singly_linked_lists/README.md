@@ -2,6 +2,7 @@
 
 <details><summary>Table of Contents</summary>
 
+- `Headers`: <i>List of headers used</i>
 - `lists.h`: <i>Header File</i>
 - `0-print_list.c`: <i>Prints all the elements of a list_t list</i>
 - `1-list_len.c`: <i>Returns the number of elements in a linked list_t list.</i>
