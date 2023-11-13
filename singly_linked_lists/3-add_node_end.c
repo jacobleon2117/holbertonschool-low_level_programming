@@ -4,23 +4,25 @@
 #include <string.h>
 
 /**
- * add_node_end - adds a node at the very end of the singly linked list
- * @head: pointer for the first node
- * @str: the string in the list
- * Return: the address of the new node or uses NULL
-**/
+ * add_node_end - adds a node to the end of the singly linked list
+ * @head: the head of the  list
+ * @str: the string that is in the new node
+ *
+ * Return: the new node
+*/
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *new_node, *ptr;
-	
+	list_t *new_node;
+	list_t *current;
+
 	new_node = malloc(sizeof(list_t));
-	ptr = malloc(sizeof(list_t));
-	if (new_node)
-	{
-		new_node->str = strdup(str);
-		new_node->len = strlen(str);
-		new_node->next = NULL;
+	current = malloc(sizeof(list_t));
+	if (!new_node)
+		return (NULL);
+	new_node->str = strdup(str);
+	new_node->len = strlen(str);
+	new_node->next = NULL;
 
 	if (*head == NULL)
 	{
@@ -28,14 +30,12 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 	else
 	{
-		ptr = *head;
-		while (ptr = ptr != NULL)
+		current = *head;
+		while (current->next != NULL)
 		{
-			ptr = ptr->next;
+			current = current->next;
 		}
-		ptr->next = new_node;
+		current->next = new_node;
 	}
-	return (new_node);
- }
- return (NULL);
+		return (new_node);
 }
