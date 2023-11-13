@@ -1,6 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
-#include <stdlib.h
+#include <stdlib.h>
 
 /**
  * free_list - frees malloc in the list
