@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h
+#include <string.h>
 
 /**
  * add_node_end - adds a node at the very end of the singly linked list
