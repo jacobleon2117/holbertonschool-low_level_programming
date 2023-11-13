@@ -3,7 +3,8 @@
 #include "main.h"
 
 /**
- * flip_bits - the number of bits that is needed to be flipped to get from x to y
+ * flip_bits - the number of bits that is needed to be flipped to get /
+ * x to y
  * @x: First integer
  * @y: Second integer
  * Return: flipped bits
