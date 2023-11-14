@@ -14,7 +14,7 @@
  * contents in the
  * first/second. First file must live, then the second can be made during
  * the copying process.
- * Return: 0 on success if it's an error return 97, 98, 99, 100 depending on the error
+ * Return: 0 on success if it's an error return 97, 98, 99, 100 
 */
 
 int main(int argc, char *argv[])
