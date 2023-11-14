@@ -7,7 +7,8 @@
 #include "main.h"
 
 /**
- * append_text_to_file - appends the  string to the very end of the provided file
+ * append_text_to_file - appends the  string to the very end
+ * of the provided file
  * @filename: the file to be appended to
  * @text_content: string that is being appended
  * Return: 1 on success or -1 on error
